@@ -1,0 +1,61 @@
+html
+{
+    height:100%;
+}
+
+body
+{
+    background-image:url(img/gwbackground.png);
+    font-family:verdana,sans-serif;
+    width:100%;
+    /* min-width:550px; */
+    height:100%;
+    margin:0px;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+}
+
+#globalwrapper
+{
+    background-image:url(img/gwbackground.png);
+    height:100%;
+    text-align:center;
+    position:relative;
+    border-left:1px solid black;
+    border-right:1px solid black;
+}
+
+.navbutton
+{
+    display:inline;
+    background-color:#d8d8d8;
+    text-decoration:none;
+    font-size:16pt;
+    color:black;
+    border-left:2px solid black;
+    border-right:2px solid black;
+    border-bottom:2px solid black;
+    border-bottom-left-radius:9px;
+    border-bottom-right-radius:9px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#navpanel > a:hover
+{
+    background-color:#ffffff;
+}
+
+#currentpage
+{
+    background-color:#c0c0c0;
+}
+
+#footer
+{
+    text-align:center;
+    width:100%;
+    position:absolute;
+    bottom:16px;
+}
